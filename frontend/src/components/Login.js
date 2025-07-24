@@ -27,7 +27,7 @@ function Login() {
             return alert('Email and password are required');
         }
         try {
-            const url = `https://your-backend.onrender.com/auth/login`;
+            const url = `https://foodie-s-paradise.onrender.com/auth/login`;
             const response = await fetch(url, {
                 method: 'POST',
                 headers: {

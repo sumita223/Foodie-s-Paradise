@@ -27,7 +27,7 @@ const SignUp = () => {
             return alert('Name, email, and password are required.');
         }
         try {
-            const url = `https://your-backend.onrender.com/auth/signup`;
+            const url = `https://foodie-s-paradise.onrender.com/auth/signup`;
             const response = await fetch(url, {
                 method: 'POST',
                 headers: {
@@ -123,3 +123,4 @@ const SignUp = () => {
 };
 
 export default SignUp;
+//const url = `http://localhost:8090/auth/signup`;
