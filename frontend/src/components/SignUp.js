@@ -27,7 +27,7 @@ const SignUp = () => {
             return alert('Name, email, and password are required.');
         }
         try {
-            const url = `http://your-backend.onrender.com/auth/signup`;
+            const url = `https://your-backend.onrender.com/auth/signup`;
             const response = await fetch(url, {
                 method: 'POST',
                 headers: {
