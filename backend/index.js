@@ -13,7 +13,11 @@ app.get('/ping', (req,res)=>{
 });
 
 app.use(bodyParser.json());
-app.use(cors());
+app.use(cors({
+  origin: 'https://your-frontend.vercel.app',  // Replace with actual Vercel frontend domain
+  credentials: true
+}));
+
 
 // Import the router files
 const AuthRouter= require('./Routes/AuthRouter');
