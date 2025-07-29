@@ -17,7 +17,7 @@ A modern and responsive food delivery web application that fetches real-time dat
 
 7. Custom Error Page
 # Backend
-1. User Signup
+1 User Signup
 
 2 User Login
 
@@ -51,6 +51,8 @@ yarn run build
 ## ⚠️ DISCLAIMER
 If you are trying to access the live website kindly use this extension and enable it so that 3rd party API can run. https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=en
 
+## Deployment Link
+https://foodiesparadise-murex.vercel.app/
 
 ## 🤝 Contributing
 Contributions are welcome!
